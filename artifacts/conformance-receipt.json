@@ -1,0 +1,35 @@
+{
+  "algorithm_id": "olp-otel-receipt-0.1",
+  "attestation": "self",
+  "canonicalization_id": "olp-canonical-json-int-v1",
+  "capture_loss": false,
+  "capture_status": "provisional",
+  "completion_policy": {
+    "grace_millis": 0,
+    "semconv_schema_id": "conformance.fixture.v1",
+    "type": "root_close_plus_grace"
+  },
+  "dropped_span_count": 0,
+  "kind": "coherence_input_receipt",
+  "observed_span_count": 1,
+  "payload_hash": "c16cfd4f450418aaf2ea22ce59fd03792ae72d53fee50a034c00e41ee5fe2f90",
+  "receipt_version": "0.1",
+  "seal_reason": "grace_elapsed",
+  "semantic_claims": true,
+  "semantic_graph_hash": "afb98ca6eedcacdc8bed0918b036033839b5e56e6ae90af9668b6aeeb70c4d5a",
+  "signal_points_micros": [
+    250000
+  ],
+  "signal_schema_id": "conformance.signal.v1",
+  "signature": {
+    "algorithm": "Ed25519",
+    "public_key": "79b5562e8fe654f94078b112e8a98ba7901f853ae695bed7e0e3910bad049664",
+    "value": "edf47726b7fb40563c827fb4e68f9b42aba4eeda137211fe1b7a90bb253b58dbc637e119d170347bc6929b42479433ed37484da13471aac2dfc5a158b8f0460c"
+  },
+  "spec_uri": "https://github.com/terryncew/openline-core",
+  "state_cap": "white",
+  "trace_id": "000000000000000000000000000a11ce",
+  "trace_root": "fb4114c61422d92587a0950efdcd12042d4814ca3472f3d4f9719ca7eca9d8a6",
+  "tree_algorithm": "rfc6962-mth-sha256-promote-odd-v1",
+  "typed_event_status": "valid"
+}
